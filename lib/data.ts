@@ -1,10 +1,9 @@
+import moviesmisImg from "@/public/moviesmis_app.png";
+import ssbImg from "@/public/ssb_app.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -35,73 +34,86 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated University",
+    location: "Edinburgh, Scotland(UK)",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Frontend Developer",
+    location: "Yangon, Myanmar",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a frontend developer for 1 and half years in Consumer Good Myanmar Company. I learnt deeply understood about Angular and React Framework.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Associate Developer",
+    location: "Yangon, Myanmar",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I also work as Associate developer for 6 months in Partner Associates Int’l Co., Ltd. In this company, I upskilled to fullstack.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Frontend Developer",
+    location: "Yangon, Myanmar",
+    description:
+      "I'm now a Frontend Developer working in Citizen Pays. My stack includes React, Next.js, Angular, TypeScript, Tailwind, Node.js and Express.js and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Moviesmis",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "MoviesMis is an app for browsing movies and TV series, showing titles, ratings, and release dates. It features a responsive design with light and dark modes.",
+    tags: ["React", "Next.js", "TMDB", "Tailwind", "Redux", "Framer Motion"],
+    imageUrl: moviesmisImg,
   },
   {
-    title: "rmtDev",
+    title: "SSB Portal ",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "The SSB Myanmar portal is a public-facing platform for social security services. I developed an internal system for its department use across Myanmar, which is not accessible to the public.",
+    tags: ["Angular", "TypeScript", "Rxjs", "DevExtreme UI"],
+    imageUrl: ssbImg,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "SASS",
+  "Tailwind",
+  "JQuery",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "Angular",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Rxjs",
+  "Jest",
+  "Node.js",
+  "MongoDB",
+  "Express.js",
+  "MongoDB",
+  "Git",
+  "GitHub Action",
+  "Docker",
   "Framer Motion",
+  "Bootstrap",
+  "Material UI",
+  "Ant Design UI",
 ] as const;
