@@ -74,6 +74,7 @@ export const projectsData = [
       "MoviesMis is an app for browsing movies and TV series, showing titles, ratings, and release dates. It features a responsive design with light and dark modes.",
     tags: ["React", "Next.js", "TMDB", "Tailwind", "Redux", "Framer Motion"],
     imageUrl: moviesmisImg,
+    link: "https://moviesmis.vercel.app/",
   },
   {
     title: "SSB Portal ",
@@ -81,6 +82,7 @@ export const projectsData = [
       "The SSB Myanmar portal is a public-facing platform for social security services. I developed an internal system for its department use across Myanmar, which is not accessible to the public.",
     tags: ["Angular", "TypeScript", "Rxjs", "DevExtreme UI"],
     imageUrl: ssbImg,
+    link: "https://ssb.gov.mm/portal/home",
   },
   // {
   //   title: "Word Analytics",
