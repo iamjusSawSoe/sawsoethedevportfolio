@@ -1,4 +1,5 @@
 import moviesmisImg from "@/public/moviesmis_app.png";
+import silvermountainImg from "@/public/silvermountainpteltd.png";
 import ssbImg from "@/public/ssb_app.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
@@ -47,7 +48,7 @@ export const experiencesData = [
     description:
       "I worked as a frontend developer for 1 and half years in Consumer Good Myanmar Company. I learnt deeply understood about Angular and React Framework.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2023",
+    date: "2021 Nov - 2023 Jun",
   },
   {
     title: "Associate Developer",
@@ -55,15 +56,23 @@ export const experiencesData = [
     description:
       "I also work as Associate developer for 6 months in Partner Associates Int’l Co., Ltd. In this company, I upskilled to fullstack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2024",
+    date: "2023 Jun - 2023 Dec",
   },
   {
     title: "Frontend Developer",
     location: "Yangon, Myanmar",
     description:
-      "I'm now a Frontend Developer working in Citizen Pays. My stack includes React, Next.js, Angular, TypeScript, Tailwind, Node.js and Express.js and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a Frontend Developer working in Citizen Pays. My stack includes React, Next.js, Angular, TypeScript, Tailwind, Node.js and Express.js and MongoDB.",
     icon: React.createElement(FaReact),
-    date: "2024 - present",
+    date: "2023 Dec - 2024 Oct",
+  },
+  {
+    title: "Software Developer",
+    location: "Yangon, Myanmar",
+    description:
+      "Currently working at Tumil Holdings Co. Ltd as a Software Developer, building full-stack applications with Laravel, Inertia.js, React, and React Native for both web and mobile platforms.",
+    icon: React.createElement(FaReact),
+    date: "2024 Oct - Present",
   },
 ] as const;
 
@@ -84,13 +93,21 @@ export const projectsData = [
     imageUrl: ssbImg,
     link: "https://ssb.gov.mm/portal/home",
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "Silver Mountains Pte Ltd",
+    description:
+      "A freelance project for a global trading and logistics leader. Built for SEO, performance, and responsiveness, it showcases the company’s expertise with a clean, modern design.",
+    tags: [
+      "React",
+      "Next.js",
+      "Tailwind",
+      "Framer Motion",
+      "Material UI",
+      "Resend",
+    ],
+    imageUrl: silvermountainImg,
+    link: "https://www.silvermountainpteltd.com/",
+  },
 ] as const;
 
 export const skillsData = [
@@ -105,11 +122,15 @@ export const skillsData = [
   "Next.js",
   "Angular",
   "Redux",
+  "Zustand",
   "Rxjs",
   "Jest",
   "Node.js",
-  "MongoDB",
   "Express.js",
+  "PHP",
+  "Laravel",
+  "MySQL",
+  "PostgreSQL",
   "MongoDB",
   "Git",
   "GitHub Action",
@@ -118,4 +139,6 @@ export const skillsData = [
   "Bootstrap",
   "Material UI",
   "Ant Design UI",
+  "Chakra UI",
+  "DevExtreme UI",
 ] as const;

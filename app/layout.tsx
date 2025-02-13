@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Saw Soe Htut Win | Full Stack Developer",
   description:
-    "Saw Soe Htut Win  is a full-stack developer with 3 years of experience.",
+    "Saw Soe Htut Win  is a full-stack developer with 4 years of experience.",
 };
 
 export default function RootLayout({
